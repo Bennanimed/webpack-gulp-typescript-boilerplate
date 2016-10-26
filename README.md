@@ -6,7 +6,7 @@ Minimal dev environment to start project based on gulp, webpack and typescript
 
 ```
 npm install webpack -g
-npm install -g typescript
+npm install typescript -g
 npm install
 ```
 
@@ -18,7 +18,7 @@ npm start
 
 webserver will open http://0.0.0.0:3000 on your default browser
 
-add a cat name to cats array in 'app/js/cats.ts' you will see modification in your browser ( livereload will automatically refresh your page in the brower on save )
+add a cat name to cats array in 'app/js/cats.ts' you will see modification in your browser ( livereload will automatically refresh your page in the browser on save )
 
 ## Configuration
 if you want to change host and port, use the file under 'config/development.js' and to change webpack entry files under 'config/webpackFilesInput.js'
